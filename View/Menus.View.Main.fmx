@@ -1,0 +1,30 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  BorderStyle = Single
+  Caption = 'Sample with MVC'
+  ClientHeight = 600
+  ClientWidth = 800
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Left
+    Size.Width = 177.000000000000000000
+    Size.Height = 578.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+  object StatusBar: TStatusBar
+    Position.Y = 578.000000000000000000
+    ShowSizeGrip = True
+    Size.Width = 800.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'statusbarstyle'
+    TabOrder = 1
+  end
+end

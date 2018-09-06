@@ -1,0 +1,10 @@
+﻿[Layout1]
+Coordinates=82,10,53,33
+
+[StatusBar]
+Coordinates=10,10,62,33
+Visible=True
+
+[]
+Coordinates=72,1,82,33
+
